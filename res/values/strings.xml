@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Loan</string>
+    <string name="about_copyright">© 2011&#8211;12 Erik C. Thauvin.\nAll Rights Reserved.\n\nhttp://m.thauvin.net/android/</string>
+    <string name="about_copyright_blackberry">© 2011&#8211;12 Erik C. Thauvin.\nAll Rights Reserved.\n\nhttp://m.thauvin.net/blackberry/</string>
+    <string name="about_title">About </string>
+    <string name="btn_calculate">Calculate</string>
+    <string name="hint_amount">e.g. 100000</string>
+    <string name="hint_calculate">to be calculated&#8230;</string>
+    <string name="hint_interest">e.g. 5.2</string>
+    <string name="hint_months">e.g. 240</string>
+    <string name="label_amount">Loan Amount:</string>
+    <string name="label_cost">Total Cost:</string>
+    <string name="label_interest">Interest Rate:</string>
+    <string name="label_months">Number of Months:</string>
+    <string name="label_payment">Payment:</string>
+    <string name="label_version">Version:</string>
+    <string name="menu_about">About</string>
+
+</resources>

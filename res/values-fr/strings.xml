@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Emprunt</string>
+    <string name="about_copyright">© 2011&#8211;12 Erik C. Thauvin.\nTous droits réservés.\n\nhttp://m.thauvin.net/android/</string>
+    <string name="about_copyright_blackberry">© 2011&#8211;12 Erik C. Thauvin.\nTous droits réservés.\n\nhttp://m.thauvin.net/blackberry/</string>
+    <string name="about_title">À propos d\'</string>
+    <string name="btn_calculate">Calculer</string>
+    <string name="hint_amount">ex. 100000</string>
+    <string name="hint_calculate">à calculer&#8230;</string>
+    <string name="hint_interest">ex. 5.2</string>
+    <string name="hint_months">ex. 240</string>
+    <string name="label_amount">Montant emprunté:</string>
+    <string name="label_cost">Coût total:</string>
+    <string name="label_interest">Taux d\'intérêt:</string>
+    <string name="label_months">Nombre de mensualités:</string>
+    <string name="label_payment">Mensualité:</string>
+    <string name="label_version">Version:</string>
+    <string name="menu_about">À propos</string>
+
+</resources>

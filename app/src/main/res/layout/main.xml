@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:gravity="center_vertical"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/titleBar"
@@ -20,22 +20,20 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="@android:color/white" />
 
-    <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:paddingTop="10dp" >
+        android:paddingTop="10dp">
 
         <TextView
             android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/label_amount"
-            android:textAppearance="?android:attr/textAppearanceMedium" >
-        </TextView>
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
 
         <EditText
             android:id="@+id/amount"
@@ -43,7 +41,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/hint_amount"
             android:inputType="number"
-            android:textColorHint="#FFCCCCCC" >
+            android:textColorHint="#FFCCCCCC">
 
             <requestFocus />
         </EditText>
@@ -53,8 +51,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/label_interest"
-            android:textAppearance="?android:attr/textAppearanceMedium" >
-        </TextView>
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
 
         <EditText
             android:id="@+id/interest"
@@ -62,16 +59,14 @@
             android:layout_height="wrap_content"
             android:hint="@string/hint_interest"
             android:inputType="numberDecimal"
-            android:textColorHint="#FFCCCCCC" >
-        </EditText>
+            android:textColorHint="#FFCCCCCC"/>
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/label_months"
-            android:textAppearance="?android:attr/textAppearanceMedium" >
-        </TextView>
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
 
         <EditText
             android:id="@+id/months"
@@ -79,8 +74,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/hint_months"
             android:inputType="number"
-            android:textColorHint="#FFCCCCCC" >
-        </EditText>
+            android:textColorHint="#FFCCCCCC"/>
 
         <Button
             android:id="@+id/calculate"
@@ -94,20 +88,19 @@
             android:paddingRight="15dp"
             android:text="@string/btn_calculate"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textStyle="bold" >
-        </Button>
+            android:textStyle="bold"/>
 
         <TableLayout
             android:id="@+id/tableLayout1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="3dp"
-            android:background="@drawable/border" >
+            android:background="@drawable/border">
 
             <TableRow
                 android:id="@+id/tableRow1"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" >
+                android:layout_height="wrap_content">
 
                 <TextView
                     android:id="@+id/textView4"
@@ -115,8 +108,7 @@
                     android:layout_height="wrap_content"
                     android:paddingRight="10dp"
                     android:text="@string/label_payment"
-                    android:textAppearance="?android:attr/textAppearanceMedium" >
-                </TextView>
+                    android:textAppearance="?android:attr/textAppearanceMedium"/>
 
                 <TextView
                     android:id="@+id/payment"
@@ -126,14 +118,13 @@
                     android:gravity="right"
                     android:text="@string/hint_calculate"
                     android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:textColor="#FFCCCCCC" >
-                </TextView>
+                    android:textColor="#FFCCCCCC"/>
             </TableRow>
 
             <TableRow
                 android:id="@+id/tableRow2"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" >
+                android:layout_height="wrap_content">
 
                 <TextView
                     android:id="@+id/textView6"
@@ -141,8 +132,7 @@
                     android:layout_height="wrap_content"
                     android:paddingRight="10dp"
                     android:text="@string/label_cost"
-                    android:textAppearance="?android:attr/textAppearanceMedium" >
-                </TextView>
+                    android:textAppearance="?android:attr/textAppearanceMedium"/>
 
                 <TextView
                     android:id="@+id/cost"
@@ -152,8 +142,7 @@
                     android:gravity="right"
                     android:text="@string/hint_calculate"
                     android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:textColor="#FFCCCCCC" >
-                </TextView>
+                    android:textColor="#FFCCCCCC"/>
             </TableRow>
         </TableLayout>
     </LinearLayout>

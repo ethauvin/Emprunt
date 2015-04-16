@@ -1,8 +1,9 @@
-/.svn
-/dist
-/bin
-/project.properties
-/.classpath
-/proguard.cfg
-/.project
-/.pmd
+.DS_Store
+.gradle
+/.idea/libraries
+/.idea/workspace.xml
+/build
+/captures
+/local.properties
+/versions.properties
+Thumbs.db

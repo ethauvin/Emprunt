@@ -27,7 +27,7 @@ import android.widget.TextView;
  * @created October 14, 2011
  * @since 1.0
  */
-public class AboutDialogBuilder
+class AboutDialogBuilder
 {
 	public static AlertDialog create(Context context) throws NameNotFoundException
 	{

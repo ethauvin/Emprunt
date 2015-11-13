@@ -3,7 +3,7 @@ apply plugin: 'versionPlugin'
 
 android {
     compileSdkVersion 11
-    buildToolsVersion "21.1.2"
+    buildToolsVersion "23.0.1"
 
     defaultConfig {
         applicationId "net.thauvin.erik.android.emprunt"
